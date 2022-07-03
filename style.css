@@ -1,0 +1,13 @@
+.asset {
+  font-size: 40px;
+  width: 900px;
+  margin: 60px auto;
+  padding: 10px;
+  text-align: center;
+  background-color: #dfd9e3;
+  border: 5px solid red;
+  border-radius: 50%;
+  text-shadow: 3px 4px 2px rgb(177, 139, 139);
+  word-spacing: 20px;
+  line-height: 40px;
+}

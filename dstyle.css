@@ -1,0 +1,141 @@
+* {
+  box-sizing: border-box;
+}
+/* heading section style start */
+.header,
+.foter,
+.cover,
+.main-content {
+  width: 960px;
+  margin: 0 auto;
+}
+.clr {
+  clear: both;
+}
+.header {
+  height: 200px;
+  background-color: #bbc6d6;
+}
+.image,
+.aside {
+  height: 200px;
+  float: left;
+}
+
+.header .image {
+  width: 200px;
+}
+.image img {
+  width: 100%;
+  height: 100%;
+}
+.header .aside {
+  width: 760px;
+
+  text-align: center;
+  color: #3d3d3d;
+}
+.aside h1 {
+  font-family: 'Castellar';
+  font-size: 50px;
+  word-spacing: 7px;
+  text-shadow: 5px 5px 5px #ffffff;
+}
+/* heading section style end */
+
+/* cover section style start */
+.cover {
+  height: 270px;
+  border: 4px solid #555555;
+}
+
+.cover img {
+  width: 100%;
+  height: 100%;
+}
+/* cover section style start */
+
+/* body section style start */
+.main-content {
+  background-color: #e9bda6;
+}
+/* col-1 style start */
+.main-content .col-1 {
+  padding: 20px;
+  text-align: center;
+  width: 320px;
+  float: left;
+}
+.col-1 .image-1 img {
+  width: 100%;
+  height: 240px;
+}
+.col-1 .pera-1 {
+  text-align: justify;
+}
+.col-1 .pera-1 h1 {
+  text-align: center;
+  font-family: castellar;
+  text-shadow: 4px 4px 4px #3d3d3d;
+  border-bottom: 2px solid #555555;
+}
+/* col-1 style end */
+
+/* col-2 style start */
+
+.main-content .col-2 {
+  padding: 20px;
+  text-align: center;
+  width: 320px;
+  float: left;
+}
+.col-2 .image-2 img {
+  width: 100%;
+  height: 240px;
+}
+.col-2 .pera-2 {
+  text-align: justify;
+}
+.col-2 .pera-2 h1 {
+  text-align: center;
+  font-family: castellar;
+  text-shadow: 4px 4px 4px #3d3d3d;
+  border-bottom: 2px solid #555555;
+}
+
+/* col-2 style end */
+
+/* col-3 style start */
+.main-content .col-3 {
+  padding: 20px;
+  text-align: center;
+  width: 320px;
+  float: left;
+}
+.col-3 .image-3 img {
+  width: 100%;
+  height: 240px;
+}
+.col-3 .pera-3 {
+  text-align: justify;
+}
+.col-3 .pera-3 h1 {
+  font-size: 27px;
+  text-align: center;
+  font-family: castellar;
+  text-shadow: 4px 4px 4px #3d3d3d;
+  border-bottom: 2px solid #555555;
+}
+
+/* col-3 style end */
+/* body section style start */
+
+.foter {
+  text-align: center;
+  padding-top: 11px;
+  font-size: 25px;
+  height: 50px;
+  background-color: #33cc00;
+  /* line-height: 1px;
+  border: 0.1px solid #555555; */
+}
